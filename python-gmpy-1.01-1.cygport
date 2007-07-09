@@ -1,0 +1,6 @@
+inherit distutils
+
+DESCRIPTION="Python GMP bindings"
+HOMEPAGE="http://gmpy.sourceforge.net/"
+SRC_URI="mirror://sourceforge/gmpy/gmpy-sources-${PV//.}.zip"
+SRC_DIR="gmpy"

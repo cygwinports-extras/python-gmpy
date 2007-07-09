@@ -1,0 +1,59 @@
+python-gmpy
+------------------------------------------
+The General Multiprecision PYthon project (GMPY) focuses on 
+Python-usable modules providing multiprecision arithmetic functionality 
+to Python programmers. The project mission includes both C and C++ 
+Python-modules (for speed) and pure Python modules (for flexibility and 
+convenience); it potentially includes integral, rational and 
+floating-point arithmetic in any base.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libgmp3-4.2.1-1
+  python-2.5.1-3
+
+Build requirements:
+  cygwin-1.5.24-1
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  python-2.5.1-3
+
+Canonical website:
+  http://gmpy.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/gmpy/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-gmpy-1.01-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-gmpy-1.01-X.cygport all
+
+This will create:
+  /usr/src/python-gmpy-1.01-X-src.tar.bz2
+  /usr/src/python-gmpy-1.01-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/gmpy-1.01-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/gmpy.dll
+  /usr/share/doc/Cygwin/python-gmpy-1.01.README
+  /usr/share/doc/python-gmpy-1.01/README
+
+------------------
+
+Port Notes:
+
+----- version 1.01-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
