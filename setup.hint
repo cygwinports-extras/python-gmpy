@@ -1,5 +1,5 @@
 category: Math Python
-requires: cygwin libgmp3 python
+requires: libgmp3 python
 sdesc: "Python GMP library"
 ldesc: "The General Multiprecision PYthon project (GMPY) focuses on
 Python-usable modules providing multiprecision arithmetic functionality
